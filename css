@@ -1,0 +1,51 @@
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1:hover{
+    animation: color-change 3s infinite;
+}
+
+
+
+body {    
+    font-family: Arial, sans-serif; /* Yazı tipi ailesi */
+    font-size: 11px; /* <p></p> etiketindeki ana yazının boyutu */
+    background-color: #f0f0f0; /* Web sayfasının arka plan rengi */
+    color: #333333; /* Metin rengi */
+}
+
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    background-color: green;
+    color: red;
+    
+}
+.gameWrapper {
+	position: relative;
+/* 	padding-bottom: 56.25%; */
+/* 	padding-top: 25px; */
+/* 	height: 0; */
+/*   max-width: 60%; */
+  width: 450px;
+  height: 800px;
+}
+.gameWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
